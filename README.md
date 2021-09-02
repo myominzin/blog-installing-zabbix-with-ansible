@@ -48,7 +48,7 @@ The `database` group doesn't contain any nodes directly like the other groups th
 
 ## ansible/group_vars/all
 
-This file contains all settings that are used for all servers, so you can see these as the defaults we are going to use for the Zabbix Server and the database server. We have configured the basics for Zabbix, like on which url Zabbix is available (`zabbix.example.com`), the Admin username/password so Ansible is able to create hosts, action, media and the users. It also provides which Templates we default want to be used for when we create the hosts.
+This file contains all settings that are used for all servers, so you can see these as the defaults we are going to use for the Zabbix Server and the database server. We have configured the basics for Zabbix, like on which url Zabbix is available (`zabbix.redhatmm.local`), the Admin username/password so Ansible is able to create hosts, action, media and the users. It also provides which Templates we default want to be used for when we create the hosts.
 
 ## ansible/group_vars/database
 
