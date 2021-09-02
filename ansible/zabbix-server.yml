@@ -1,9 +1,9 @@
 ---
 
 - hosts: zabbix_database
-  become: true
   roles:
     - role: geerlingguy.mysql
+      become: true
 
 - name: Installing Zabbix
   hosts: zabbix_server
