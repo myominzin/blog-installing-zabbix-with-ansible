@@ -15,7 +15,7 @@ zabbix_link_templates:
   - "{{ zabbix_link_templates_default }}"
 
 zabbix_version: 5.2
-zabbix_url: http://zabbix.example.com
+zabbix_url: http://zabbix.redhatmm.local
 zabbix_install_pip_packages: true
 zabbix_api_user: Admin
 zabbix_api_pass: zabbix
